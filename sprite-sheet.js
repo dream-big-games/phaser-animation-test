@@ -1,5 +1,5 @@
 
-var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create });
+var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'animation', { preload: preload, create: create });
 
 function preload() {
 
@@ -8,7 +8,7 @@ function preload() {
     //  There are 18 frames in the PNG - you can leave this value blank if the frames fill up the entire PNG, but in this case there are some
     //  blank frames at the end, so we tell the loader how many to load
 
-    game.load.spritesheet('mummy', 'assets/sprites/metalslug_mummy37x45.png', 37, 45, 18);
+    game.load.spritesheet('mummy', 'assets/metalslug_mummy37x45.png', 37, 45, 18);
 
 }
 
