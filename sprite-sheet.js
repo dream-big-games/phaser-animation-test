@@ -14,7 +14,7 @@ function preload() {
 
 function create() {
 
-    var mummy = game.add.sprite(300, 200, 'mummy');
+    var mummy = game.add.sprite(180, 127, 'mummy');
 
     //  Here we add a new animation called 'walk'
     //  Because we didn't give any other parameters it's going to make an animation from all available frames in the 'mummy' sprite sheet
