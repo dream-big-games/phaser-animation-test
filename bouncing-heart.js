@@ -14,7 +14,7 @@ function preload() {
 
 function create() {
 
-    var mummy = game.add.sprite(300, 200, 'bouncing-heart');
+    var mummy = game.add.sprite(168, 82, 'bouncing-heart');
 
     //  Here we add a new animation called 'bounce'
     //  Because we didn't give any other parameters it's going to make an animation from all available frames 
