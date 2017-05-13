@@ -34,5 +34,5 @@ function create() {
     //  position = 100, 100; fps = 12
     var heart = game.add.sprite(100, 100, 'bouncing-heart');
     var bounce = heart.animations.add('bounce');
-    heat.animations.play('bounce', 12, true);
+    heart.animations.play('bounce', 12, true);
 }
