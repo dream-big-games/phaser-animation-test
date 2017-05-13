@@ -8,7 +8,7 @@ function preload() {
     //  There are 13 frames in the PNG - you can leave this value blank if the frames fill up the entire PNG, but in case there are 
     //  blank frames at the end, we need to tell the loader how many to load
 
-    game.load.spritesheet('bouncing-heart', 'assets/bouncing-heart_32x32', 32, 32, 13);
+    game.load.spritesheet('bouncing-heart', 'assets/bouncing-heart_32x32.png', 32, 32, 13);
 
 }
 
