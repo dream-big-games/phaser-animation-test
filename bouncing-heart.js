@@ -4,11 +4,12 @@ var game = new Phaser.Game(400, 300, Phaser.CANVAS, 'bouncing-heart', { preload:
 function preload() {
 
     //  32x32 is the size of each frame
+    // set to double 64x64
 
     //  There are 13 frames in the PNG - you can leave this value blank if the frames fill up the entire PNG, but in case there are 
     //  blank frames at the end, we need to tell the loader how many to load
 
-    game.load.spritesheet('bouncing-heart', 'assets/bouncing-heart_32x32.png', 32, 32, 13);
+    game.load.spritesheet('bouncing-heart', 'assets/bouncing-heart_32x32.png', 64, 64, 13);
 
 }
 
