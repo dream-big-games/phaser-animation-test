@@ -22,8 +22,8 @@ function create() {
     var walk = mummy.animations.add('bounce');
 
     //  And this starts the animation playing by using its key ("bounce")
-    //  30 is the frame rate (30fps)
+    //  12 is the frame rate (30fps)
     //  true means it will loop when it finishes
-    mummy.animations.play('bounce', 30, true);
+    mummy.animations.play('bounce', 12, true);
 
 }
