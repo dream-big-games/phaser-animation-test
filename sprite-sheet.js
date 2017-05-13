@@ -13,10 +13,6 @@ function preload() {
     //  Nnew Item
     //  frame size = 32x32; 13 frames in sheet
     game.load.spritesheet('bouncing-heart', 'assets/bouncing-heart_32x32.png', 32, 32, 13);
-
-    
-    
-
 }
 
 function create() {
